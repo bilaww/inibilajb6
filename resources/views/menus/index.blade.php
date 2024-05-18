@@ -14,13 +14,13 @@
                             </div>
                         @endif
 
-                        <a href="{{ route('menus.create') }}" class="btn btn-success mb-3">Tambah Bucket Baru</a>
+                        <a href="{{ route('menus.create') }}" class="btn btn-success mb-3">Tambah Parfum Baru</a>
 
                         <div class="table-responsive">
                             <table class="table table-bordered table-striped">
                                 <thead>
                                     <tr>
-                                        <th>Nama Bucket</th>
+                                        <th>Nama Parfum</th>
                                         <th>Deskripsi</th>
                                         <th>Tanggal</th>
                                         <th>Aksi</th>

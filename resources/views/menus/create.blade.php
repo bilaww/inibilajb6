@@ -7,7 +7,7 @@
         <form action="{{ route('menus.store') }}" method="POST">
             @csrf
             <div class="form-group">
-                <label for="nama_menu">Nama Bucket </label>
+                <label for="nama_menu">Nama Parfum</label>
                 <input type="text" name="nama_menu" id="nama_menu" class="form-control" required>
             </div>
             <div class="form-group">
